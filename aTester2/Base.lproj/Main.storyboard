@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="aTester2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R6O-Ex-EUV">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ARL-b3-w0a">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QEv-OW-enH">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                                <color key="backgroundColor" red="0.65199967619999999" green="0.097670986409999994" blue="0.0065414926199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="urX-EU-fP5">
+                                                <rect key="frame" x="0.0" y="375" width="375" height="272"/>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="QEv-OW-enH" secondAttribute="trailing" id="71X-mL-Toj"/>
+                                            <constraint firstAttribute="bottom" secondItem="urX-EU-fP5" secondAttribute="bottom" id="8VK-ut-Jwy"/>
+                                            <constraint firstItem="QEv-OW-enH" firstAttribute="height" secondItem="ARL-b3-w0a" secondAttribute="width" id="Ie2-SG-3Np"/>
+                                            <constraint firstItem="urX-EU-fP5" firstAttribute="width" secondItem="ARL-b3-w0a" secondAttribute="width" id="QZQ-Co-MW3"/>
+                                            <constraint firstItem="urX-EU-fP5" firstAttribute="leading" secondItem="ARL-b3-w0a" secondAttribute="leading" id="jyi-d2-30k"/>
+                                            <constraint firstItem="urX-EU-fP5" firstAttribute="top" secondItem="QEv-OW-enH" secondAttribute="bottom" id="ka9-HP-h94"/>
+                                            <constraint firstItem="QEv-OW-enH" firstAttribute="leading" secondItem="ARL-b3-w0a" secondAttribute="leading" id="o2L-wT-WMv"/>
+                                            <constraint firstAttribute="trailing" secondItem="urX-EU-fP5" secondAttribute="trailing" id="uir-d1-pZS"/>
+                                            <constraint firstItem="QEv-OW-enH" firstAttribute="top" secondItem="ARL-b3-w0a" secondAttribute="top" id="w3k-wM-qHT"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ARL-b3-w0a" firstAttribute="height" secondItem="R6O-Ex-EUV" secondAttribute="height" priority="250" id="1iM-vV-YC6"/>
+                                    <constraint firstItem="ARL-b3-w0a" firstAttribute="top" secondItem="R6O-Ex-EUV" secondAttribute="top" id="6Z6-L7-oFZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="ARL-b3-w0a" secondAttribute="bottom" id="BrK-NB-RtU"/>
+                                    <constraint firstItem="ARL-b3-w0a" firstAttribute="leading" secondItem="R6O-Ex-EUV" secondAttribute="leading" id="qWh-rF-mJK"/>
+                                    <constraint firstItem="ARL-b3-w0a" firstAttribute="width" secondItem="R6O-Ex-EUV" secondAttribute="width" id="stW-EL-6xd"/>
+                                    <constraint firstAttribute="trailing" secondItem="ARL-b3-w0a" secondAttribute="trailing" id="uOa-xk-ltS"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R6O-Ex-EUV" secondAttribute="trailing" id="8GK-dU-PQl"/>
+                            <constraint firstItem="R6O-Ex-EUV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cBd-58-DTb"/>
+                            <constraint firstItem="R6O-Ex-EUV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kuy-fO-N6V"/>
+                            <constraint firstItem="R6O-Ex-EUV" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="u7B-b4-29H"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="contentView" destination="ARL-b3-w0a" id="PvL-v6-yXB"/>
+                        <outlet property="scrollView" destination="R6O-Ex-EUV" id="IMF-VT-ug1"/>
+                        <outlet property="stackView" destination="urX-EU-fP5" id="CDf-bR-AKa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="26.53673163418291"/>
+        </scene>
+    </scenes>
+</document>
