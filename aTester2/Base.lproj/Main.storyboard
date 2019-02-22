@@ -28,7 +28,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
                                                 <color key="backgroundColor" red="0.65199967619999999" green="0.097670986409999994" blue="0.0065414926199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="urX-EU-fP5">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="urX-EU-fP5">
                                                 <rect key="frame" x="0.0" y="375" width="375" height="272"/>
                                             </stackView>
                                         </subviews>
@@ -47,7 +47,7 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="ARL-b3-w0a" firstAttribute="height" secondItem="R6O-Ex-EUV" secondAttribute="height" priority="250" id="1iM-vV-YC6"/>
+                                    <constraint firstItem="ARL-b3-w0a" firstAttribute="height" secondItem="R6O-Ex-EUV" secondAttribute="height" placeholder="YES" id="1iM-vV-YC6"/>
                                     <constraint firstItem="ARL-b3-w0a" firstAttribute="top" secondItem="R6O-Ex-EUV" secondAttribute="top" id="6Z6-L7-oFZ"/>
                                     <constraint firstAttribute="bottom" secondItem="ARL-b3-w0a" secondAttribute="bottom" id="BrK-NB-RtU"/>
                                     <constraint firstItem="ARL-b3-w0a" firstAttribute="leading" secondItem="R6O-Ex-EUV" secondAttribute="leading" id="qWh-rF-mJK"/>

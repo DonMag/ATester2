@@ -42,7 +42,8 @@
                 <constraint firstItem="J1U-MY-s1q" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="60" id="9rI-e3-XNz"/>
                 <constraint firstItem="dRq-zp-fSc" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="28" id="BTQ-pE-Ia5"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="J1U-MY-s1q" secondAttribute="bottom" constant="29" id="VYS-7W-p6k"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dRq-zp-fSc" secondAttribute="trailing" constant="172" id="XgU-6K-GBe"/>
+                <constraint firstItem="dRq-zp-fSc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="60" id="hcF-3M-Hf2"/>
+                <constraint firstItem="J1U-MY-s1q" firstAttribute="top" secondItem="dRq-zp-fSc" secondAttribute="bottom" constant="1.5" id="p9y-kx-Jrk"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

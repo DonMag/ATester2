@@ -43,17 +43,10 @@ class CustomView: UIView {
         let nib = UINib(nibName: "CustomView", bundle: nil)
         nib.instantiate(withOwner: self, options: nil)
         contentView.frame = bounds
-      //  contentView.autoresizingMask = [.flexibleWidth,.flexibleHeight]
+		// keep this here
+      	contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         addSubview(contentView)
     
     }
     
-    /* stub
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
 }
